@@ -62,5 +62,9 @@ public class BasePage {
     }
 
 
+    public boolean isAt(By locator){
+       return findBy(locator).isDisplayed();
+    }
+
 
 }

@@ -17,6 +17,10 @@ public class GooglePage extends BasePage{
         driver.get(GOOGLE_URL);
     }
 
+    public boolean googlePageOpened(){
+        return isAt(searchInputLocator);
+    }
+
 
 
 }
